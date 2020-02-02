@@ -19,8 +19,8 @@
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>587</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|24577|24579|1
-sequence|table|24615|24617|1
+      <Relations>sequence|table|24615|24617|1
+sequence|table|24577|24579|1
 </Relations>
     </database>
     <role id="5" parent="1" name="pg_execute_server_program">

@@ -17,6 +17,14 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Properties;
 
+/**
+ * 02.02.2020
+ * UsersServletWithDao
+ *
+ * @author RombyGuIde (Home Software Engineering Platform)
+ * @version v1.0
+ */
+
 @WebServlet("/users")
 public class UsersServletWithDao extends HttpServlet {
     private UsersDao usersDao;

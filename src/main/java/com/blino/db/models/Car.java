@@ -1,5 +1,13 @@
 package com.blino.db.models;
 
+/**
+ * 02.02.2020
+ * Car
+ *
+ * @author RombyGuIde (Home Software Engineering Platform)
+ * @version v1.0
+ */
+
 public class Car {
     private Integer id;
     private String model;

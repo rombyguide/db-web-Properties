@@ -10,6 +10,14 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.*;
 
+/**
+ * 02.02.2020
+ * UsersDaoJdbcTemplateImpl
+ *
+ * @author RombyGuIde (Home Software Engineering Platform)
+ * @version v1.0
+ */
+
 public class UsersDaoJdbcTemplateImpl implements UsersDao {
     private JdbcTemplate template;
 

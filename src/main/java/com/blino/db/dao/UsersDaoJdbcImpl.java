@@ -8,6 +8,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * 02.02.2020
+ * UsersDaoJdbcImpl
+ *
+ * @author RombyGuIde (Home Software Engineering Platform)
+ * @version v1.0
+ */
+
 public class UsersDaoJdbcImpl implements UsersDao {
 
 //  language=SQL

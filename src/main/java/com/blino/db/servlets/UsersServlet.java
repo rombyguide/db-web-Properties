@@ -10,6 +10,14 @@ import java.io.IOException;
 import java.sql.*;
 import java.util.Properties;
 
+/**
+ * 02.02.2020
+ * UserServlet
+ *
+ * @author RombyGuIde (Home Software Engineering Platform)
+ * @version v1.0
+ */
+
 @WebServlet("/users1")
 public class UsersServlet extends HttpServlet {
 

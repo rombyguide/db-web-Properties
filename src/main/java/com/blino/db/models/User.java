@@ -2,6 +2,14 @@ package com.blino.db.models;
 
 import java.util.List;
 
+/**
+ * 02.02.2020
+ * User
+ *
+ * @author RombyGuIde (Home Software Engineering Platform)
+ * @version v1.0
+ */
+
 public class User {
     private Integer id;
     private String firstName;
