@@ -17,10 +17,10 @@
       <ObjectId>13318</ObjectId>
       <Comment>default administrative connection database</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>547</IntrospectionStateNumber>
+      <IntrospectionStateNumber>587</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|24577|24579|1
-sequence|table|24585|24587|1
+sequence|table|24615|24617|1
 </Relations>
     </database>
     <role id="5" parent="1" name="pg_execute_server_program">
@@ -72,7 +72,7 @@ sequence|table|24585|24587|1
       <Comment>standard public schema</Comment>
       <StateNumber>276</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>548</IntrospectionStateNumber>
+      <IntrospectionStateNumber>588</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="17" parent="4" name="heap">
@@ -147,8 +147,8 @@ sequence|table|24585|24587|1
       <SchemaId>11</SchemaId>
     </extension>
     <sequence id="26" parent="16" name="fix_car_id_seq">
-      <ObjectId>24585</ObjectId>
-      <StateNumber>540</StateNumber>
+      <ObjectId>24615</ObjectId>
+      <StateNumber>583</StateNumber>
       <Owner>postgres</Owner>
       <SequenceIdentity>1</SequenceIdentity>
       <CacheSize>1</CacheSize>
@@ -163,9 +163,9 @@ sequence|table|24585|24587|1
       <DataType>integer</DataType>
     </sequence>
     <table id="28" parent="16" name="fix_car">
-      <ObjectId>24587</ObjectId>
+      <ObjectId>24617</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>540</StateNumber>
+      <StateNumber>583</StateNumber>
     </table>
     <table id="29" parent="16" name="fix_user">
       <ObjectId>24579</ObjectId>
@@ -176,39 +176,39 @@ sequence|table|24585|24587|1
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>540</StateNumber>
+      <StateNumber>583</StateNumber>
       <DefaultExpression>nextval(&apos;fix_car_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
     <column id="31" parent="28" name="model">
       <Position>2</Position>
-      <DataType>varchar(30)|0s</DataType>
-      <StateNumber>540</StateNumber>
+      <DataType>varchar(90)|0s</DataType>
+      <StateNumber>583</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="32" parent="28" name="owner_id">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>540</StateNumber>
+      <StateNumber>583</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <index id="33" parent="28" name="fix_car_pkey">
-      <ObjectId>24591</ObjectId>
-      <StateNumber>540</StateNumber>
+      <ObjectId>24621</ObjectId>
+      <StateNumber>583</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="34" parent="28" name="fix_car_pkey">
-      <ObjectId>24592</ObjectId>
-      <StateNumber>540</StateNumber>
+      <ObjectId>24622</ObjectId>
+      <StateNumber>583</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>fix_car_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="35" parent="28" name="fix_car_owner_id_fkey">
-      <ObjectId>24593</ObjectId>
-      <StateNumber>540</StateNumber>
+      <ObjectId>24623</ObjectId>
+      <StateNumber>583</StateNumber>
       <ColNames>owner_id</ColNames>
       <RefTableId>24579</RefTableId>
       <RefColPositions>1</RefColPositions>
