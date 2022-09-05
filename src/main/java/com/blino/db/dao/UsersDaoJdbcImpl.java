@@ -12,7 +12,7 @@ import java.util.Optional;
  * 02.02.2020
  * UsersDaoJdbcImpl
  *
- * @author RombyGuIde (Home Software Engineering Platform)
+ * @author RombyGuIde 
  * @version v1.0
  */
 
