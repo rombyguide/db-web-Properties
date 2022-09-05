@@ -21,7 +21,7 @@ import java.util.Properties;
  * 02.02.2020
  * UsersServletWithDao
  *
- * @author RombyGuIde (Home Software Engineering Platform)
+ * @author RombyGuIde 
  * @version v1.0
  */
 
