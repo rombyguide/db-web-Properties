@@ -14,7 +14,7 @@ import java.util.*;
  * 02.02.2020
  * UsersDaoJdbcTemplateImpl
  *
- * @author RombyGuIde (Home Software Engineering Platform)
+ * @author RombyGuIde 
  * @version v1.0
  */
 
