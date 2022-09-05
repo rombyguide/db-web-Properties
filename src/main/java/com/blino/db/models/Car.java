@@ -4,7 +4,7 @@ package com.blino.db.models;
  * 02.02.2020
  * Car
  *
- * @author RombyGuIde 
+ * @author RombyGuide 
  * @version v1.0
  */
 
